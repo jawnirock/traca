@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900&display=swap');
+
+.home {
+    .general-home-anchor {
+        display: none;
+    }
+    .home-anchor {
+        display: block;
+    }
+}
+
+.page-template-projects {
+    .project-anchor {
+        display: block;
+    }
+    .general-anchor {
+        display: none;
+    }
+}
+
+body {
+    background: #EFECED;    
+    font-family: 'Heebo', sans-serif;
+
+    .project-anchor {
+        display: none;
+    }
+
+    .home-anchor {
+        display: none;
+    }
+
+    h3 {
+        font-size: 30px;
+        line-height: 1.4;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    h4 {
+        font-size: 20px;
+        line-height: 1.4;
+        font-weight: 400;
+    }
+
+    #sobre {
+        background: #FF0000;
+        img {
+            width: 100%;
+        }
+    }
+    
+    #colaboradores {
+        background: #0000FF;
+        padding-top: 0;
+        h3 {
+            margin-top: 0;
+            &.title {
+                margin-top: 30px;
+            }
+        }    
+    }
+    
+    .carousel {
+        margin: 0 auto;
+        max-width: 1920px;
+    }
+
+    .traca {
+        &-nav {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            z-index: 9000;
+            
+            &-open {
+                position: fixed;
+                left: 20px;
+                top: 15px;
+                height: 50px;
+                cursor: pointer;
+                z-index: 9005;
+            }
+            
+            &-bar {
+                display: flex;
+                height: 80px;
+                width: 100%;
+                align-items: center;
+                justify-content: center;
+                padding: 0 20px;
+                
+                @media only screen and (max-width: 600px) {
+                    justify-content: flex-end;
+                }
+
+                
+                .icon {
+                  &-title {
+                      height: 40px;
+                  }  
+                }
+            }
+            &-menu {
+                background: black;
+                color: white;
+                position: fixed;
+                left: 0;
+                top: 0;
+                height: 100%;
+                z-index: 9999;
+                width: 0;
+                transition: 0.3s linear;
+                overflow: hidden;
+                
+                a {
+                    color: white;
+                    &:hover {
+                        text-decoration: line-through;
+                    }
+                }
+
+                &.open {
+                    width: 250px;
+                }
+                
+                &-close {
+                    position: absolute;
+                    right: 17px;
+                    top: 10px;
+                    color: white;
+                    cursor: pointer;
+                    font-size: 22px;
+                    img {
+                        width: 25px;
+                        height: auto;
+                    }
+                    &:hover {
+                        opacity: 0.7;
+                    }
+                }
+
+               .icon {
+                  &-menu {
+                      margin: 15px 0px 30px 20px;
+                      height: 50px;
+                  }
+               }
+
+                h3 {
+                    font-weight: 400;
+                    margin: 5px 20px;
+                    line-height: 1.1;
+                    @media only screen and (max-width: 600px) {
+                        font-size: 20px;
+                    }
+
+                }
+                .submenu {
+                    line-height: 1.1;
+                    a {
+                        color: #b3b3b3;
+                    }
+                }
+                p {
+                    margin: 5px 20px;
+                    font-size: 15px;
+                    @media only screen and (max-width: 600px) {
+                        font-size: 12px;
+                    }
+                }
+                .contactos {
+                    position: absolute;
+                    width: 310px;
+                    left: 0;
+                    bottom: 50px;
+                    a {
+                        color: white;
+                    }
+                    @media only screen and (max-width: 600px) {
+                        bottom: 15px;
+                    }
+                }
+            }
+        }
+
+        &-section {
+            padding: 100px 0px 20px 0px;
+
+            &-equipa {
+                &-row {
+                    &:first-child {
+                        h3 {
+                            margin-top: 60px;
+                        }
+                    }
+                    margin: 10px 0;
+                    img {
+                        width: 100%;
+                        max-width: 300px;
+                        margin-bottom: 30px;
+                    }
+                }
+            } 
+            &-projectos {
+                h4 {
+                    font-size: 24px;
+                    font-weight: 400;
+                    margin: 40px 0 10px 0;
+                }
+                &-row {
+                 column-width: 20em;
+                 column-gap: 1em; 
+                 margin-top: 8px;
+                }
+                &-item {
+                    margin: 2px 0;
+                    display: inline-block;
+                    a {
+                        color: black;
+                        text-decoration: none;
+                        display: block;
+                        height: 100%;
+                        width: 100%;
+
+                        &:hover {
+                            opacity: 0.7;
+                        }
+                    }
+                    img {
+                        width: 100%;
+                    }
+                    &-desc {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .project {
+        &-info {
+            h3 {
+                font-size: 30px;
+                margin: 0;
+                font-weight: 400;
+            }
+            h6 {
+                font-size: 20px;
+                line-height: 1.2;
+                font-weight: 400;
+            }
+        }
+        &-gallery {
+            &-main {
+                img {
+                    width: 100%;
+                }
+            }
+            &-rest {
+                 column-width: 15em;
+                 column-gap: 1em; 
+                 margin-top: 8px;
+              img {
+                 display: inline-block;
+                 margin:  8px 0;
+                 width:  100%; 
+              }
+            }
+        }
+    }
+}

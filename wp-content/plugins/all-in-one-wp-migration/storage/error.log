@@ -1,0 +1,24 @@
+Sep 24 2019 20:25:49
+{"type":2,"message":"POST Content-Length of 114518787 bytes exceeds the limit of 8388608 bytes","file":"Unknown","line":0}
+
+Sep 24 2019 20:25:50
+{"Number":2,"Message":"filesize(): stat failed for \/home\/ubuntu\/environment\/wp-content\/plugins\/all-in-one-wp-migration\/storage\/qxk5f1octgso\/traca.pash.rocks-20190924-194907-452.wpress","File":"\/home\/ubuntu\/environment\/wp-content\/plugins\/all-in-one-wp-migration\/functions.php","Line":233}
+
+Sep 24 2019 20:25:50
+{"Number":2,"Message":"Division by zero","File":"\/home\/ubuntu\/environment\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/model\/import\/class-ai1wm-import-validate.php","Line":67}
+
+Sep 24 2019 20:25:50
+{"Number":2,"Message":"fopen(\/home\/ubuntu\/environment\/wp-content\/plugins\/all-in-one-wp-migration\/storage\/qxk5f1octgso\/traca.pash.rocks-20190924-194907-452.wpress): failed to open stream: No such file or directory","File":"\/home\/ubuntu\/environment\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-archiver.php","Line":98}
+
+Sep 24 2019 20:38:55
+{"type":2,"message":"POST Content-Length of 90746175 bytes exceeds the limit of 8388608 bytes","file":"Unknown","line":0}
+
+Sep 24 2019 20:38:57
+{"Number":2,"Message":"filesize(): stat failed for \/home\/ubuntu\/environment\/wp-content\/plugins\/all-in-one-wp-migration\/storage\/526f30w9aqwi\/traca.pash.rocks-20190924-203028-497.wpress","File":"\/home\/ubuntu\/environment\/wp-content\/plugins\/all-in-one-wp-migration\/functions.php","Line":233}
+
+Sep 24 2019 20:38:57
+{"Number":2,"Message":"Division by zero","File":"\/home\/ubuntu\/environment\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/model\/import\/class-ai1wm-import-validate.php","Line":67}
+
+Sep 24 2019 20:38:57
+{"Number":2,"Message":"fopen(\/home\/ubuntu\/environment\/wp-content\/plugins\/all-in-one-wp-migration\/storage\/526f30w9aqwi\/traca.pash.rocks-20190924-203028-497.wpress): failed to open stream: No such file or directory","File":"\/home\/ubuntu\/environment\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/archiver\/class-ai1wm-archiver.php","Line":98}
+

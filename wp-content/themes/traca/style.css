@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900&display=swap");
+.home .general-home-anchor {
+  display: none; }
+
+.home .home-anchor {
+  display: block; }
+
+.page-template-projects .project-anchor {
+  display: block; }
+
+.page-template-projects .general-anchor {
+  display: none; }
+
+body {
+  background: #EFECED;
+  font-family: 'Heebo', sans-serif; }
+  body .project-anchor {
+    display: none; }
+  body .home-anchor {
+    display: none; }
+  body h3 {
+    font-size: 30px;
+    line-height: 1.4;
+    font-weight: 700;
+    margin-bottom: 30px; }
+  body h4 {
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 400; }
+  body #sobre {
+    background: #FF0000; }
+    body #sobre img {
+      width: 100%; }
+  body #colaboradores {
+    background: #0000FF;
+    padding-top: 0; }
+    body #colaboradores h3 {
+      margin-top: 0; }
+      body #colaboradores h3.title {
+        margin-top: 30px; }
+  body .carousel {
+    margin: 0 auto;
+    max-width: 1920px; }
+  body .traca-nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9000; }
+    body .traca-nav-open {
+      position: fixed;
+      left: 20px;
+      top: 15px;
+      height: 50px;
+      cursor: pointer;
+      z-index: 9005; }
+    body .traca-nav-bar {
+      display: -ms-flexbox;
+      display: flex;
+      height: 80px;
+      width: 100%;
+      -ms-flex-align: center;
+          align-items: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+      padding: 0 20px; }
+      @media only screen and (max-width: 600px) {
+        body .traca-nav-bar {
+          -ms-flex-pack: end;
+              justify-content: flex-end; } }
+      body .traca-nav-bar .icon-title {
+        height: 40px; }
+    body .traca-nav-menu {
+      background: black;
+      color: white;
+      position: fixed;
+      left: 0;
+      top: 0;
+      height: 100%;
+      z-index: 9999;
+      width: 0;
+      transition: 0.3s linear;
+      overflow: hidden; }
+      body .traca-nav-menu a {
+        color: white; }
+        body .traca-nav-menu a:hover {
+          text-decoration: line-through; }
+      body .traca-nav-menu.open {
+        width: 250px; }
+      body .traca-nav-menu-close {
+        position: absolute;
+        right: 17px;
+        top: 10px;
+        color: white;
+        cursor: pointer;
+        font-size: 22px; }
+        body .traca-nav-menu-close img {
+          width: 25px;
+          height: auto; }
+        body .traca-nav-menu-close:hover {
+          opacity: 0.7; }
+      body .traca-nav-menu .icon-menu {
+        margin: 15px 0px 30px 20px;
+        height: 50px; }
+      body .traca-nav-menu h3 {
+        font-weight: 400;
+        margin: 5px 20px;
+        line-height: 1.1; }
+        @media only screen and (max-width: 600px) {
+          body .traca-nav-menu h3 {
+            font-size: 20px; } }
+      body .traca-nav-menu .submenu {
+        line-height: 1.1; }
+        body .traca-nav-menu .submenu a {
+          color: #b3b3b3; }
+      body .traca-nav-menu p {
+        margin: 5px 20px;
+        font-size: 15px; }
+        @media only screen and (max-width: 600px) {
+          body .traca-nav-menu p {
+            font-size: 12px; } }
+      body .traca-nav-menu .contactos {
+        position: absolute;
+        width: 310px;
+        left: 0;
+        bottom: 50px; }
+        body .traca-nav-menu .contactos a {
+          color: white; }
+        @media only screen and (max-width: 600px) {
+          body .traca-nav-menu .contactos {
+            bottom: 15px; } }
+  body .traca-section {
+    padding: 100px 0px 20px 0px; }
+    body .traca-section-equipa-row {
+      margin: 10px 0; }
+      body .traca-section-equipa-row:first-child h3 {
+        margin-top: 60px; }
+      body .traca-section-equipa-row img {
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 30px; }
+    body .traca-section-projectos h4 {
+      font-size: 24px;
+      font-weight: 400;
+      margin: 40px 0 10px 0; }
+    body .traca-section-projectos-row {
+      -moz-column-width: 20em;
+           column-width: 20em;
+      -moz-column-gap: 1em;
+           column-gap: 1em;
+      margin-top: 8px; }
+    body .traca-section-projectos-item {
+      margin: 2px 0;
+      display: inline-block; }
+      body .traca-section-projectos-item a {
+        color: black;
+        text-decoration: none;
+        display: block;
+        height: 100%;
+        width: 100%; }
+        body .traca-section-projectos-item a:hover {
+          opacity: 0.7; }
+      body .traca-section-projectos-item img {
+        width: 100%; }
+      body .traca-section-projectos-item-desc {
+        font-size: 12px; }
+  body .project-info h3 {
+    font-size: 30px;
+    margin: 0;
+    font-weight: 400; }
+  body .project-info h6 {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400; }
+  body .project-gallery-main img {
+    width: 100%; }
+  body .project-gallery-rest {
+    -moz-column-width: 15em;
+         column-width: 15em;
+    -moz-column-gap: 1em;
+         column-gap: 1em;
+    margin-top: 8px; }
+    body .project-gallery-rest img {
+      display: inline-block;
+      margin: 8px 0;
+      width: 100%; }
